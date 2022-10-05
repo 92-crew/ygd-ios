@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E8C47428ED07D000962D88 /* yeogidamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C47328ED07D000962D88 /* yeogidamApp.swift */; };
+		08E8C47628ED07D000962D88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C47528ED07D000962D88 /* ContentView.swift */; };
+		08E8C47828ED07D200962D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E8C47728ED07D200962D88 /* Assets.xcassets */; };
+		08E8C47B28ED07D200962D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E8C47A28ED07D200962D88 /* Preview Assets.xcassets */; };
+		08E8C48528ED07D200962D88 /* yeogidamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C48428ED07D200962D88 /* yeogidamTests.swift */; };
+		08E8C48F28ED07D200962D88 /* yeogidamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C48E28ED07D200962D88 /* yeogidamUITests.swift */; };
+		08E8C49128ED07D200962D88 /* yeogidamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C49028ED07D200962D88 /* yeogidamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E8C48128ED07D200962D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E8C46828ED07D000962D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E8C46F28ED07D000962D88;
+			remoteInfo = yeogidam;
+		};
+		08E8C48B28ED07D200962D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E8C46828ED07D000962D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E8C46F28ED07D000962D88;
+			remoteInfo = yeogidam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E8C47028ED07D000962D88 /* yeogidam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeogidam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E8C47328ED07D000962D88 /* yeogidamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeogidamApp.swift; sourceTree = "<group>"; };
+		08E8C47528ED07D000962D88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08E8C47728ED07D200962D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08E8C47A28ED07D200962D88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08E8C48028ED07D200962D88 /* yeogidamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yeogidamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E8C48428ED07D200962D88 /* yeogidamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeogidamTests.swift; sourceTree = "<group>"; };
+		08E8C48A28ED07D200962D88 /* yeogidamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yeogidamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E8C48E28ED07D200962D88 /* yeogidamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeogidamUITests.swift; sourceTree = "<group>"; };
+		08E8C49028ED07D200962D88 /* yeogidamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeogidamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E8C46D28ED07D000962D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C47D28ED07D200962D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C48728ED07D200962D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E8C46728ED07D000962D88 = {
+			isa = PBXGroup;
+			children = (
+				08E8C47228ED07D000962D88 /* yeogidam */,
+				08E8C48328ED07D200962D88 /* yeogidamTests */,
+				08E8C48D28ED07D200962D88 /* yeogidamUITests */,
+				08E8C47128ED07D000962D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08E8C47128ED07D000962D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08E8C47028ED07D000962D88 /* yeogidam.app */,
+				08E8C48028ED07D200962D88 /* yeogidamTests.xctest */,
+				08E8C48A28ED07D200962D88 /* yeogidamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08E8C47228ED07D000962D88 /* yeogidam */ = {
+			isa = PBXGroup;
+			children = (
+				08E8C47328ED07D000962D88 /* yeogidamApp.swift */,
+				08E8C47528ED07D000962D88 /* ContentView.swift */,
+				08E8C47728ED07D200962D88 /* Assets.xcassets */,
+				08E8C47928ED07D200962D88 /* Preview Content */,
+			);
+			path = yeogidam;
+			sourceTree = "<group>";
+		};
+		08E8C47928ED07D200962D88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08E8C47A28ED07D200962D88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08E8C48328ED07D200962D88 /* yeogidamTests */ = {
+			isa = PBXGroup;
+			children = (
+				08E8C48428ED07D200962D88 /* yeogidamTests.swift */,
+			);
+			path = yeogidamTests;
+			sourceTree = "<group>";
+		};
+		08E8C48D28ED07D200962D88 /* yeogidamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08E8C48E28ED07D200962D88 /* yeogidamUITests.swift */,
+				08E8C49028ED07D200962D88 /* yeogidamUITestsLaunchTests.swift */,
+			);
+			path = yeogidamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08E8C46F28ED07D000962D88 /* yeogidam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E8C49428ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidam" */;
+			buildPhases = (
+				08E8C46C28ED07D000962D88 /* Sources */,
+				08E8C46D28ED07D000962D88 /* Frameworks */,
+				08E8C46E28ED07D000962D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yeogidam;
+			productName = yeogidam;
+			productReference = 08E8C47028ED07D000962D88 /* yeogidam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08E8C47F28ED07D200962D88 /* yeogidamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E8C49728ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidamTests" */;
+			buildPhases = (
+				08E8C47C28ED07D200962D88 /* Sources */,
+				08E8C47D28ED07D200962D88 /* Frameworks */,
+				08E8C47E28ED07D200962D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E8C48228ED07D200962D88 /* PBXTargetDependency */,
+			);
+			name = yeogidamTests;
+			productName = yeogidamTests;
+			productReference = 08E8C48028ED07D200962D88 /* yeogidamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08E8C48928ED07D200962D88 /* yeogidamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E8C49A28ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidamUITests" */;
+			buildPhases = (
+				08E8C48628ED07D200962D88 /* Sources */,
+				08E8C48728ED07D200962D88 /* Frameworks */,
+				08E8C48828ED07D200962D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E8C48C28ED07D200962D88 /* PBXTargetDependency */,
+			);
+			name = yeogidamUITests;
+			productName = yeogidamUITests;
+			productReference = 08E8C48A28ED07D200962D88 /* yeogidamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08E8C46828ED07D000962D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					08E8C46F28ED07D000962D88 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					08E8C47F28ED07D200962D88 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 08E8C46F28ED07D000962D88;
+					};
+					08E8C48928ED07D200962D88 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 08E8C46F28ED07D000962D88;
+					};
+				};
+			};
+			buildConfigurationList = 08E8C46B28ED07D000962D88 /* Build configuration list for PBXProject "yeogidam" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08E8C46728ED07D000962D88;
+			productRefGroup = 08E8C47128ED07D000962D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08E8C46F28ED07D000962D88 /* yeogidam */,
+				08E8C47F28ED07D200962D88 /* yeogidamTests */,
+				08E8C48928ED07D200962D88 /* yeogidamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E8C46E28ED07D000962D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E8C47B28ED07D200962D88 /* Preview Assets.xcassets in Resources */,
+				08E8C47828ED07D200962D88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C47E28ED07D200962D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C48828ED07D200962D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08E8C46C28ED07D000962D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E8C47628ED07D000962D88 /* ContentView.swift in Sources */,
+				08E8C47428ED07D000962D88 /* yeogidamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C47C28ED07D200962D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E8C48528ED07D200962D88 /* yeogidamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E8C48628ED07D200962D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E8C49128ED07D200962D88 /* yeogidamUITestsLaunchTests.swift in Sources */,
+				08E8C48F28ED07D200962D88 /* yeogidamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E8C48228ED07D200962D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E8C46F28ED07D000962D88 /* yeogidam */;
+			targetProxy = 08E8C48128ED07D200962D88 /* PBXContainerItemProxy */;
+		};
+		08E8C48C28ED07D200962D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E8C46F28ED07D000962D88 /* yeogidam */;
+			targetProxy = 08E8C48B28ED07D200962D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E8C49228ED07D200962D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08E8C49328ED07D200962D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08E8C49528ED07D200962D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeogidam/Preview Content\"";
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08E8C49628ED07D200962D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeogidam/Preview Content\"";
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08E8C49828ED07D200962D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeogidam.app/yeogidam";
+			};
+			name = Debug;
+		};
+		08E8C49928ED07D200962D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeogidam.app/yeogidam";
+			};
+			name = Release;
+		};
+		08E8C49B28ED07D200962D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yeogidam;
+			};
+			name = Debug;
+		};
+		08E8C49C28ED07D200962D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR64R8JGKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.92crew.yeogidamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yeogidam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E8C46B28ED07D000962D88 /* Build configuration list for PBXProject "yeogidam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E8C49228ED07D200962D88 /* Debug */,
+				08E8C49328ED07D200962D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E8C49428ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E8C49528ED07D200962D88 /* Debug */,
+				08E8C49628ED07D200962D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E8C49728ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E8C49828ED07D200962D88 /* Debug */,
+				08E8C49928ED07D200962D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E8C49A28ED07D200962D88 /* Build configuration list for PBXNativeTarget "yeogidamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E8C49B28ED07D200962D88 /* Debug */,
+				08E8C49C28ED07D200962D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08E8C46828ED07D000962D88 /* Project object */;
+}
