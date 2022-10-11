@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Views
+import ViewModels
 
 @main
 struct yeogidamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapView()
         }
     }
 }
