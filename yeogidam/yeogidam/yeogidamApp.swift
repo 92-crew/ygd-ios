@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct yeogidamApp: App {
+struct YeogidamApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08E8C47428ED07D000962D88 /* yeogidamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C47328ED07D000962D88 /* yeogidamApp.swift */; };
+		08E8C47428ED07D000962D88 /* YeogidamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C47328ED07D000962D88 /* YeogidamApp.swift */; };
 		08E8C47628ED07D000962D88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C47528ED07D000962D88 /* ContentView.swift */; };
 		08E8C47828ED07D200962D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E8C47728ED07D200962D88 /* Assets.xcassets */; };
 		08E8C47B28ED07D200962D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E8C47A28ED07D200962D88 /* Preview Assets.xcassets */; };
@@ -16,6 +16,8 @@
 		08E8C49128ED07D200962D88 /* yeogidamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C49028ED07D200962D88 /* yeogidamUITestsLaunchTests.swift */; };
 		47C4A0E2E244BB04A13C53BE /* Pods_yeogidam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284DF08ABB9365078B73E1E4 /* Pods_yeogidam.framework */; };
 		7DD4FAD6C28403FD94691F8D /* Pods_yeogidam_yeogidamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE0A962BF102ECFFE86B8FB /* Pods_yeogidam_yeogidamUITests.framework */; };
+		93334B6C290AB0A9006F76EC /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93334B6B290AB0A9006F76EC /* Main.swift */; };
+		93334B70290AB3F7006F76EC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93334B6F290AB3F7006F76EC /* SearchBar.swift */; };
 		A42F119322BB5A3E2882CC96 /* Pods_yeogidamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A3B732ACFC4707E5CBC59E /* Pods_yeogidamTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		08E8C47028ED07D000962D88 /* yeogidam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeogidam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08E8C47328ED07D000962D88 /* yeogidamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeogidamApp.swift; sourceTree = "<group>"; };
+		08E8C47328ED07D000962D88 /* YeogidamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeogidamApp.swift; sourceTree = "<group>"; };
 		08E8C47528ED07D000962D88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08E8C47728ED07D200962D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08E8C47A28ED07D200962D88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		284DF08ABB9365078B73E1E4 /* Pods_yeogidam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeogidam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC4C11AA0B582D821F1F052 /* Pods-yeogidam-yeogidamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeogidam-yeogidamUITests.release.xcconfig"; path = "Target Support Files/Pods-yeogidam-yeogidamUITests/Pods-yeogidam-yeogidamUITests.release.xcconfig"; sourceTree = "<group>"; };
 		54C2AF0A12DAA496284E8B63 /* Pods-yeogidamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeogidamTests.debug.xcconfig"; path = "Target Support Files/Pods-yeogidamTests/Pods-yeogidamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93334B6B290AB0A9006F76EC /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		93334B6F290AB3F7006F76EC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		ACE0A962BF102ECFFE86B8FB /* Pods_yeogidam_yeogidamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeogidam_yeogidamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12790053714DC50411AF26B /* Pods-yeogidam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeogidam.release.xcconfig"; path = "Target Support Files/Pods-yeogidam/Pods-yeogidam.release.xcconfig"; sourceTree = "<group>"; };
 		C7A3B732ACFC4707E5CBC59E /* Pods_yeogidamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeogidamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,8 +115,10 @@
 		08E8C47228ED07D000962D88 /* yeogidam */ = {
 			isa = PBXGroup;
 			children = (
-				08E8C47328ED07D000962D88 /* yeogidamApp.swift */,
+				08E8C47328ED07D000962D88 /* YeogidamApp.swift */,
 				08E8C47528ED07D000962D88 /* ContentView.swift */,
+				93334B6B290AB0A9006F76EC /* Main.swift */,
+				93334B6F290AB3F7006F76EC /* SearchBar.swift */,
 				08E8C47728ED07D200962D88 /* Assets.xcassets */,
 				08E8C47928ED07D200962D88 /* Preview Content */,
 			);
@@ -406,7 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E8C47628ED07D000962D88 /* ContentView.swift in Sources */,
-				08E8C47428ED07D000962D88 /* yeogidamApp.swift in Sources */,
+				93334B70290AB3F7006F76EC /* SearchBar.swift in Sources */,
+				08E8C47428ED07D000962D88 /* YeogidamApp.swift in Sources */,
+				93334B6C290AB0A9006F76EC /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
