@@ -16,7 +16,7 @@ struct SearchBar: View {
     var body: some View {
         TextField("Search", text: $text)
             .padding(15)
-            .background(Color(.white))
+			.background(.white)
             .cornerRadius(15)
             .overlay(
                 HStack{

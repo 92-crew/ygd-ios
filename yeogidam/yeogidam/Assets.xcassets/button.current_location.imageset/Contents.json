@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "플로팅버튼 - 찜한장소.png",
+      "filename" : "button.current_location.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
