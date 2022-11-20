@@ -19,12 +19,8 @@ struct DistrictListView: View {
 	}
 	var body: some View {
 		NavigationView {
-			List {
-				ForEach(items, id: \.items) { row in
-					Text(row.name)
-				}
-				.listRowBackground(Color.white)
-				
+			List(items, children: \.items)  { row in
+				DistrictRow(name: row.name)
 			}
 			.listStyle(.plain)
 			.navigationBarTitleDisplayMode(.inline)
@@ -35,9 +31,15 @@ struct DistrictListView: View {
 			}
 			.background(Color(uiColor: .white))
 		}
-		.preferredColorScheme(.dark)
 		
 		
+	}
+}
+
+struct DistrictRow: View {
+	var name: String
+	var body: some View {
+		Text(name)
 	}
 }
 

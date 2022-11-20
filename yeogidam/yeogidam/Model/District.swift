@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct District: Identifiable {
+struct District: Identifiable, Hashable {
 	let id = UUID()
 	let name: String
 	var items: [District]?
