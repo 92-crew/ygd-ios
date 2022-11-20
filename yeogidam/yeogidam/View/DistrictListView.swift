@@ -9,23 +9,36 @@ import SwiftUI
 
 struct DistrictListView: View {
 	let items: [District] = [.example1, .example2, .example3]
-
-		var body: some View {
-			NavigationView {
-				List(items, children: \.items) { row in
+	init() {
+		let appearance = UINavigationBarAppearance()
+		appearance.backgroundColor = .ygdNavy
+		appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+		
+		UINavigationBar.appearance().standardAppearance = appearance
+		UINavigationBar.appearance().scrollEdgeAppearance = appearance
+	}
+	var body: some View {
+		NavigationView {
+			List {
+				ForEach(items, id: \.items) { row in
 					Text(row.name)
 				}
-				.listStyle(.plain)
-				.navigationBarTitleDisplayMode(.inline)
-				.toolbar {
-					ToolbarItem(placement: .principal) {
-						Text("전체 목록").font(.headline)
-					}
+				.listRowBackground(Color.white)
+				
+			}
+			.listStyle(.plain)
+			.navigationBarTitleDisplayMode(.inline)
+			.toolbar {
+				ToolbarItem(placement: .principal) {
+					Text("전체 목록").font(.headline).foregroundColor(.white)
 				}
 			}
-			
-			
+			.background(Color(uiColor: .white))
 		}
+		.preferredColorScheme(.dark)
+		
+		
+	}
 }
 
 /*

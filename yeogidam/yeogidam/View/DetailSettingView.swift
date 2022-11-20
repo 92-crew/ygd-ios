@@ -9,7 +9,14 @@ import SwiftUI
 
 struct DetailSettingView: View {
 	var setting: Setting
-    var body: some View {
+	var body: some View {
 		Text(setting.name)
-    }
+			.listStyle(.plain)
+			.navigationBarTitleDisplayMode(.inline)
+			.toolbar {
+				ToolbarItem(placement: .principal) {
+					Text(setting.name).font(.headline).foregroundColor(.white)
+				}
+			}
+	}
 }
